@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="CompositeCheckEnabled" mtime="1422477640" type="bool" value="true"/>
+</gconf>

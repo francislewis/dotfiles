@@ -1,0 +1,30 @@
+// decrease tree view items height
+.list-item, .list-group .selected:before, .list-tree .selected:before {
+  line-height: 20px !important;
+  height: 20px !important;
+}
+
+// hide tree list file icons
+.file.entry.list-item .icon:before {
+  display: none;
+}
+
+// dark theme / light scrollbar fix
+::-webkit-scrollbar {
+    width: 8px;
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background: rgba(255,255,255, 0.1);
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(255,255,255, 0.02);
+}
+
+// hide tab bar if no tabs
+.tab-bar:empty {
+  display: none;
+}
