@@ -5,6 +5,7 @@ alias fuck='sudo $(history -p \!\!)'
 alias up='sudo apt-get update && sudo apt-get upgrade && sudo apt-get autoremove'
 alias in='sudo apt-get install'
 alias say='espeak'
+alias purge='sudo apt-get purge'
 
 function google { 
      Q="$@"; 
@@ -12,3 +13,4 @@ function google {
      stream=$(exo-open "${GOOG_URL}${Q//\ /+}" | grep -oP '\/url\?q=.+?&amp' | sed 's|/url?q=||; s|&amp||'); 
      echo -e "${stream//\%/\x}"; 
 }
+
