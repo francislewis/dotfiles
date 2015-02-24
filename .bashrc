@@ -1,5 +1,7 @@
+# Bash Prompt
 export PS1="\[\e[00;30m\]\@\[\e[0m\]\[\e[00;37m\] \[\e[0m\]\[\e[00;30m\]-\[\e[0m\]\[\e[00;37m\] \[\e[0m\]\[\e[00;36m\]\u\[\e[0m\]\[\e[00;37m\] \[\e[0m\]\[\e[00;30m\]\w\[\e[0m\]\[\e[00;37m\] \[\e[0m\]\[\e[00;30m\]\\$\[\e[0m\]\[\e[00;37m\] \[\e[0m\]"
 
+#Aliases
 alias gop='gnome-open'
 alias fuck='sudo $(history -p \!\!)'
 alias up='sudo apt-get update && sudo apt-get upgrade && sudo apt-get autoremove'
@@ -7,6 +9,8 @@ alias in='sudo apt-get install'
 alias say='espeak'
 alias purge='sudo apt-get purge'
 
+#Functions
+#Google search from terminal
 function google { 
      Q="$@"; 
      GOOG_URL='https://www.google.com/search?q=';
