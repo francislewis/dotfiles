@@ -7,7 +7,7 @@ alias in='sudo apt-get install'
 alias say='espeak'
 alias purge='sudo apt-get purge'
 alias shut='sudo shutdown -h now'
-alias re='sudo shutown -r now'
+alias re='sudo shutdown -r now'
 
 function google { 
      Q="$@"; 
