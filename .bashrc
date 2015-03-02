@@ -9,6 +9,11 @@ alias purge='sudo apt-get purge'
 alias shut='sudo shutdown -h now'
 alias re='sudo shutdown -r now'
 alias gti='git'
+alias reddit='rtv'
+alias askreddit='rtv -s askreddit'
+alias tifu='rtv -s TIFU'
+alias tfts='trv -s talesfromtechsupport'
+
 
 function google { 
      Q="$@"; 
