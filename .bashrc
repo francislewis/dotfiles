@@ -16,8 +16,8 @@ alias gti='git'
 alias reddit='rtv'
 alias askreddit='rtv -s askreddit'
 alias tifu='rtv -s TIFU'
-alias tfts='trv -s talesfromtechsupport'
-alias sub='trv -s'
+alias tfts='rtv -s talesfromtechsupport'
+alias sub='rtv -s'
 
 
 function google { 
