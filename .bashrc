@@ -7,10 +7,11 @@ alias up='sudo apt-get update && sudo apt-get upgrade && sudo apt-get autoremove
 alias in='sudo apt-get install'
 alias add-repo='sudo add-apt-repository '
 alias remove-repo='sudo add-apt-repository --remove '
-alias say='espeak'
 alias purge='sudo apt-get purge'
 alias shut='sudo shutdown -h now'
 alias re='sudo shutdown -r now'
+alias ls='ls --color'
+alias say='espeak'
 alias gti='git'
 
 alias reddit='rtv'
