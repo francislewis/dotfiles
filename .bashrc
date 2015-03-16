@@ -11,6 +11,7 @@ alias purge='sudo apt-get purge'
 alias shut='sudo shutdown -h now'
 alias re='sudo shutdown -r now'
 alias ls='ls --color'
+alias lsa='ls -A'
 alias say='espeak'
 alias gti='git'
 
