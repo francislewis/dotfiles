@@ -15,7 +15,6 @@ alias ls='ls --color'
 alias lsa='ls -A --color'
 alias say='espeak'
 alias gti='git'
-alias mygit='https://github.com/francislewis'
 
 alias reddit='rtv'
 alias askreddit='rtv -s askreddit'
