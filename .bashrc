@@ -31,10 +31,4 @@ function google {
      stream=$(exo-open "${GOOG_URL}${Q//\ /+}" | grep -oP '\/url\?q=.+?&amp' | sed 's|/url?q=||; s|&amp||'); 
      echo -e "${stream//\%/\x}"; 
 }
-
-function gt() {
-    to="${1}";
-    text=$(echo "${*}" | sed -e "s/^.. //" -e "s/[\"'<>]//g");
-    res=$(wget -U "Mozilla/5.0" -qO - "http://translate.google.com/translate_a/t?client=t&text=${text}&sl=auto&tl=${to}" | sed 's/\[\[\[\"//' | cut -d \" -f 1);
-    echo "${res}";
-}    
+    
