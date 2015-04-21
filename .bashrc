@@ -17,6 +17,7 @@ alias ls='ls --color -p'
 alias lsa='ls -A --color -p'
 alias say='espeak'
 alias gti='git'
+alias edit='editor'
 
 alias reddit='rtv'
 alias askreddit='rtv -s askreddit'
