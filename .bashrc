@@ -32,3 +32,8 @@ function google {
      echo -e "${stream//\%/\x}"; 
 }
     
+=() {
+    calc="${@//p/+}"
+    calc="${calc//x/*}"
+    echo "$(($calc))"
+}
