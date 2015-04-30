@@ -7,7 +7,7 @@ Included are my dotfiles for:
 
 2. <a href="https://atom.io/">atom.io</a> 
 
-3. bash prompt
+3. bash prompt - made with <a href="http://bashrcgenerator.com/">this</a>.
  
 4. terminal profile configurations
  
