@@ -21,6 +21,7 @@ alias github='google-chrome-stable https://github.com'
 alias gti='git'
 alias edit='editor'
 alias tra='cd ~/.local/share/Trash/files/'
+alias files='nautilus'
 
 alias reddit='rtv'
 alias askreddit='rtv -s askreddit'
