@@ -43,5 +43,3 @@ function google {
     calc="${calc//x/*}"
     echo "$(($calc))"
 }
-
-
