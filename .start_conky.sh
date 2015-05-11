@@ -4,4 +4,7 @@
 sleep 20
 
 ## Run conky
-conky
+conky -c ~/.conky/.conkyrc &
+conky -c ~/.conky/.conkyrc1
+
+

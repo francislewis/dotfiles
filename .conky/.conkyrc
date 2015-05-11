@@ -1,6 +1,6 @@
 gap_x 30
 gap_y 60
-alignment top_right
+alignment top_left
 update_interval 0.5
 use_xft yes
 xftfont cantarell:size=8:bold
