@@ -1,11 +1,14 @@
-# Your init script
-#
-# Atom will evaluate this file each time a new window is opened. It is run
-# after packages are loaded/activated and after the previous editor state
-# has been restored.
-#
-# An example hack to log to the console when each text editor is saved.
-#
-# atom.workspace.observeTextEditors (editor) ->
-#   editor.onDidSave ->
-#     console.log "Saved! #{editor.getPath()}"
+# Toggle between light and dark syntax theme.
+atom.commands.add 'atom-workspace', 'dot-atom:toggle-theme', ->
+  lightTheme = "solarized-light-syntax"
+  darkTheme  = "solarized-dark-syntax"
+
+  enabledthemes = atom.themes.getEnabledThemeNames();
+  if lightTheme in enabledthemes
+    index = enabledthemes.indexOf(lightTheme)
+    enabledthemes[index] = darkTheme
+  else
+    index = enabledthemes.indexOf(darkTheme)
+    enabledthemes[index] = lightTheme
+
+  atom.themes.setEnabledThemes(enabledthemes)
