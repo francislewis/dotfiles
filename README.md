@@ -1,5 +1,7 @@
 # dotfiles
 
+I am runnning Elementry OS freya based on Ubuntu 14.04 at the moment
+
 My dotfiles.
 Included are my dotfiles for:
 
