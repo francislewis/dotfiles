@@ -23,6 +23,7 @@ alias edit='editor'
 alias tra='cd ~/.local/share/Trash/files/'
 alias files='nautilus'
 alias rm="trash-rm"
+alias mine="cd ~/Games && gnome-open Minecraft.jar"
 
 alias reddit='rtv'
 alias askreddit='rtv -s askreddit'
