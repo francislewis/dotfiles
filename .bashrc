@@ -2,7 +2,7 @@ export PS1="\[\e[00;30m\]\@\[\e[0m\]\[\e[00;37m\] \[\e[0m\]\[\e[00;30m\]-\[\e[0m
 export EDITOR="nano"
 
 alias gop='gnome-open'
-alias fuck='sudo $(history -p \!\!)'
+alias shit='sudo $(history -p \!\!)'
 alias up='sudo apt-get update && sudo apt-get upgrade && sudo apt-get autoremove && sudo apt-get autoclean'
 alias in='sudo apt-get install'
 alias upy='sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt-get autoremove -y && sudo apt-get autoclean -y'
