@@ -30,7 +30,7 @@ sudo apt-get install -f
 
 #install python things
 sudo pip install rtv
-sudo pip install thefuc
+sudo pip install thefuck
 
 #install jekyll
 sudo gem install jekyll --no-rdoc --no-ri
