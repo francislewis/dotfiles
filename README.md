@@ -21,4 +21,4 @@ Included are my dotfiles for:
 
 8. My gimp config, looks like photoshop a bit
  
-I also use <a href="https://github.com/nanorc/nanorc">nanorc/nanorc</a> for my nano config.
+I also use <a href="https://github.com/nanorc/nanorc">nanorc/nanorc</a> for my nano config and [the fuck](https://github.com/nvbn/thefuck) to correct my commands.
