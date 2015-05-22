@@ -31,6 +31,7 @@ sudo apt-get install -f
 #install python things
 sudo pip install rtv
 sudo pip install thefuck
+sudo pip install psutil
 
 #install jekyll
 sudo gem install jekyll --no-rdoc --no-ri
