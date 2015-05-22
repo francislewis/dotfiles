@@ -3,6 +3,7 @@ export EDITOR="nano"
 
 alias gop='gnome-open'
 alias shit='sudo $(history -p \!\!)'
+alias fuck='eval $(thefuck $(fc -ln -1)); history -r'
 alias up='sudo apt-get update && sudo apt-get upgrade && sudo apt-get autoremove && sudo apt-get autoclean'
 alias in='sudo apt-get install'
 alias upy='sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt-get autoremove -y && sudo apt-get autoclean -y'
