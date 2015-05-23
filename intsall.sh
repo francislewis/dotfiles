@@ -23,7 +23,8 @@ sudo apt-get install -y \
 git nautilus gnome-terminal google-chrome-unstable vlc darktable openshot deja-dup firefox mixxx \
 nodejs ruby ruby-dev gedit calibre python python-pip elementary-tweaks gimp libcanberra-gtk-module \
  nautilus-megasync numix-icon-theme numix-icon-theme-circle numix-plank-theme  \   
- paper-gtk-theme pushbullet-indicator espeak umake htop andriod-tools-fastboot andriod-tools-adb python-dev
+ paper-gtk-theme pushbullet-indicator espeak umake htop andriod-tools-fastboot andriod-tools-adb python-dev \
+ gparted
  
 #Fix broken dependencies
 sudo apt-get install -f
