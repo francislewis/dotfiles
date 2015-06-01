@@ -24,7 +24,7 @@ git nautilus gnome-terminal google-chrome-unstable vlc darktable openshot deja-d
 nodejs ruby ruby-dev gedit calibre python python-pip elementary-tweaks gimp libcanberra-gtk-module \
  nautilus-megasync numix-icon-theme numix-icon-theme-circle numix-plank-theme  \   
  paper-gtk-theme pushbullet-indicator espeak umake htop andriod-tools-fastboot andriod-tools-adb python-dev \
- gparted exo-utils figlet trash-cli
+ gparted exo-utils figlet trash-cli gtk+-3.0 bleachbit
  
 #Fix broken dependencies
 sudo apt-get install -f
