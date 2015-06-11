@@ -34,9 +34,12 @@ sudo pip install rtv
 sudo pip install thefuck
 sudo pip install psutil
 
-#install jekyll
+#install ruby stuff
 sudo gem install jekyll --no-rdoc --no-ri
 sudo gem install bropages
+
+#install nodejs things
+sudo npm install jsfuck
 
 #install visual-studio-code
 umake web visual-studio-code
