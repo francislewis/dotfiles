@@ -33,6 +33,8 @@ sudo apt-get install -f
 sudo pip install rtv
 sudo pip install thefuck
 sudo pip install psutil
+sudo pip install youtube-dlg
+
 
 #install ruby stuff
 sudo gem install jekyll --no-rdoc --no-ri
