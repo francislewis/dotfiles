@@ -26,6 +26,7 @@ alias files='nautilus'
 alias rm="trash-rm"
 alias mine="cd ~/Games && gnome-open Minecraft.jar"
 alias write="figlet"
+alias yt="youtube-dl-gui"
 
 alias reddit='rtv'
 alias askreddit='rtv -s askreddit'
