@@ -23,10 +23,11 @@ alias gti='git'
 alias edit='editor'
 alias tra='cd ~/.local/share/Trash/files/'
 alias files='nautilus'
-alias rm="trash-rm"
+alias rem="trash-rm"
 alias mine="cd ~/Games && gnome-open Minecraft.jar"
 alias write="figlet"
 alias yt="youtube-dl-gui"
+alias server="python3 -m http.server"
 
 alias reddit='rtv'
 alias askreddit='rtv -s askreddit'
