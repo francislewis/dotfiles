@@ -42,9 +42,6 @@ sudo pip install simpleHTTPServer
 sudo gem install jekyll --no-rdoc --no-ri
 sudo gem install bropages
 
-#install nodejs things
-sudo npm install jsfuck
-
 #install visual-studio-code
 umake web visual-studio-code
 
