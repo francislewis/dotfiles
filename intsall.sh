@@ -34,9 +34,9 @@ sudo pip install rtv
 sudo pip install thefuck
 sudo pip install psutil
 sudo pip install youtube-dlg
-sudo pip install simpleHTTPServer
 
-
+#install nodejs things
+sudo npm install simplehttpserver -g
 
 #install ruby stuff
 sudo gem install jekyll --no-rdoc --no-ri
