@@ -34,6 +34,8 @@ sudo pip install rtv
 sudo pip install thefuck
 sudo pip install psutil
 sudo pip install youtube-dlg
+sudo pip install simpleHTTPServer
+
 
 
 #install ruby stuff
