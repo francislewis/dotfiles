@@ -12,7 +12,10 @@ sudo apt-add-repository ppa:snwh/pulp
 sudo apt-add-repository ppa:varlesh-l/test
 sudo apt-add-repository ppa:numix/ppa
 sudo apt-add-repository ppa:elementary-os/stable
-sudo apt-add-repository 'http://dl.google.com/linux/chrome/deb/ stable main'
+sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
+
+#Add key
+wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - 
 
 #Update
 sudo apt-get -y --force-yes update
