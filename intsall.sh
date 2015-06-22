@@ -30,14 +30,16 @@ nodejs ruby ruby-dev gedit calibre python python-pip elementary-tweaks gimp libc
  gparted exo-utils figlet trash-cli gtk+-3.0 bleachbit arduino arduino-core npm asunder lame python-wxgtk2.8 \
  scrot lsb-release
  
-#Install none apt things
-mkdir ~/tempish
-cd ~/tempish
-wget https://github.com/downloads/djmelik/archey/archey-0.2.8.deb
-sudo dpkg -i archey-0.2.8.deb
-cd ~/
-rm -rf ~/tempish
-cd ~/
+#Install screenfetch
+mkdir screenfetch
+cd screenfetch
+wget https://raw.github.com/memoryleakx/screenFetch/master/screenfetch-dev
+sudo mv screenfetch-dev /usr/bin/screenfetch
+cd ..
+rm -rf screenfetch
+ 
+#make it readable and executable
+sudo chmod +rx /usr/bin/screenfetch
 
 #Fix broken dependencies
 sudo apt-get install -f
