@@ -27,8 +27,18 @@ git nautilus gnome-terminal google-chrome-unstable vlc darktable openshot deja-d
 nodejs ruby ruby-dev gedit calibre python python-pip elementary-tweaks gimp libcanberra-gtk-module \
  nautilus-megasync numix-icon-theme numix-icon-theme-circle numix-plank-theme  \   
  paper-gtk-theme pushbullet-indicator espeak umake htop andriod-tools-fastboot andriod-tools-adb python-dev \
- gparted exo-utils figlet trash-cli gtk+-3.0 bleachbit arduino arduino-core npm asunder lame python-wxgtk2.8
+ gparted exo-utils figlet trash-cli gtk+-3.0 bleachbit arduino arduino-core npm asunder lame python-wxgtk2.8 \
+ scrot lsb-release
  
+#Install none apt things
+mkdir ~/tempish
+cd ~/tempish
+wget https://github.com/downloads/djmelik/archey/archey-0.2.8.deb
+sudo dpkg -i archey-0.2.8.deb
+cd ~/
+rm -rf ~/tempish
+cd ~/
+
 #Fix broken dependencies
 sudo apt-get install -f
 
