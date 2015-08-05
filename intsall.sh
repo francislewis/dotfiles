@@ -23,7 +23,7 @@ sudo apt-get -y --force-yes upgrade
 
 #Install packages
 sudo apt-get install -y \
-git nautilus gnome-terminal google-chrome-unstable vlc darktable openshot deja-dup firefox mixxx \
+git nautilus gnome-terminal google-chrome-unstable vlc darktable kdenlive deja-dup firefox mixxx \
 nodejs ruby ruby-dev gedit calibre python python-pip elementary-tweaks gimp libcanberra-gtk-module \
  nautilus-megasync numix-icon-theme numix-icon-theme-circle numix-plank-theme  \   
  paper-gtk-theme pushbullet-indicator espeak umake htop andriod-tools-fastboot andriod-tools-adb python-dev \
@@ -64,6 +64,7 @@ umake web visual-studio-code
 sudo curl https://hub.github.com/standalone -Lo /usr/bin/hub
 sudo chmod 755 /usr/bin/hub
 
+sudo apt-get install -f
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get autoremove
