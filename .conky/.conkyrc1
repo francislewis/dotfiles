@@ -17,7 +17,7 @@ minimum_size 300
 
 # Alignment #
 alignment tr
-gap_x 50
+gap_x 90
 gap_y 100
 
 border_inner_margin 15
