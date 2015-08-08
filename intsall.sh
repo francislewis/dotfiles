@@ -28,7 +28,7 @@ nodejs ruby ruby-dev gedit calibre python python-pip elementary-tweaks gimp libc
  nautilus-megasync numix-icon-theme numix-icon-theme-circle numix-plank-theme  \   
  paper-gtk-theme pushbullet-indicator espeak umake htop andriod-tools-fastboot andriod-tools-adb python-dev \
  gparted exo-utils figlet trash-cli gtk+-3.0 bleachbit arduino arduino-core npm asunder lame python-wxgtk2.8 \
- scrot lsb-release
+ scrot lsb-release qdbus
  
 #Install screenfetch
 mkdir screenfetch
