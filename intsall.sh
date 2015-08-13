@@ -13,9 +13,12 @@ sudo apt-add-repository ppa:varlesh-l/test
 sudo apt-add-repository ppa:numix/ppa
 sudo apt-add-repository ppa:elementary-os/stable
 sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
+sudo sh -c "echo 'deb http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_15.04/ /' >> /etc/apt/sources.list.d/arc-theme.list"
 
-#Add key
+#Add keys
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - 
+wget http://download.opensuse.org/repositories/home:Horst3180/xUbuntu_15.04/Release.key
+sudo apt-key add - < Release.key 
 
 #Update
 sudo apt-get -y --force-yes update
@@ -28,7 +31,7 @@ nodejs ruby ruby-dev gedit calibre python python-pip elementary-tweaks gimp libc
  nautilus-megasync numix-icon-theme numix-icon-theme-circle numix-plank-theme  \   
  paper-gtk-theme pushbullet-indicator espeak umake htop andriod-tools-fastboot andriod-tools-adb python-dev \
  gparted exo-utils figlet trash-cli gtk+-3.0 bleachbit arduino arduino-core npm asunder lame python-wxgtk2.8 \
- scrot lsb-release qdbus
+ scrot lsb-release qdbus arc-theme
  
 #Install screenfetch
 mkdir screenfetch
