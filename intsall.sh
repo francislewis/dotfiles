@@ -52,6 +52,7 @@ sudo pip install rtv
 sudo pip install thefuck
 sudo pip install psutil
 sudo pip install youtube-dlg
+sudo pip install soundscrape
 
 #install nodejs things
 sudo npm install simplehttpserver -g
