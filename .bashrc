@@ -28,6 +28,7 @@ alias mine="cd ~/Games && gnome-open Minecraft.jar"
 alias write="figlet"
 alias yt="youtube-dl-gui"
 alias server="python3 -m http.server"
+alias clr="clear"
 
 alias reddit='rtv'
 alias askreddit='rtv -s askreddit'
