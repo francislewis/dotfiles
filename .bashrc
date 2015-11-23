@@ -29,7 +29,7 @@ alias write="figlet"
 alias yt="youtube-dl-gui"
 alias server="python3 -m http.server"
 alias clr="clear"
-
+alias fonts="fc-cache -f -v"
 alias reddit='rtv'
 alias askreddit='rtv -s askreddit'
 alias tifu='rtv -s TIFU'
